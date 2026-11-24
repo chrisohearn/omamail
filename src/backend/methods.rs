@@ -185,6 +185,7 @@ pub const ALL: &[&str] = &[
     "jmap.stream.close",
     "m365.signInBegin",
     "m365.signInPoll",
+    "m365.browserBegin",
     "m365.signOut",
     "m365.verify",
     "m365.list",

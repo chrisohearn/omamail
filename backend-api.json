@@ -1,5 +1,5 @@
 {
-  "apiVersion": 9,
+  "apiVersion": 10,
   "releasedApiVersion": 9,
   "protocolVersion": 1,
   "methods": [
@@ -188,6 +188,7 @@
     "jmap.stream.close",
     "m365.signInBegin",
     "m365.signInPoll",
+    "m365.browserBegin",
     "m365.signOut",
     "m365.verify",
     "m365.list",
@@ -1522,7 +1523,9 @@
     }
   ],
   "unreleased": {
-    "methods": [],
+    "methods": [
+      "m365.browserBegin"
+    ],
     "cases": []
   }
 }
